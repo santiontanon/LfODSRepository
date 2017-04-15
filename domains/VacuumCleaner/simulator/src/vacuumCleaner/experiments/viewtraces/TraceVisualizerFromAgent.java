@@ -39,10 +39,10 @@ public class TraceVisualizerFromAgent {
 //        Agent a = new SmartRandomExplorerAgent();
 
         Perception p = new FourRayDistancePerception();
-//        State s = new State(new SAXBuilder().build("simulator/maps/discreet-8x8.xml").getRootElement());
-//        State s = new State(new SAXBuilder().build("simulator/maps/discreet-8x8-2.xml").getRootElement());
-//        State s = new State(new SAXBuilder().build("simulator/maps/discreet-8x8-5.xml").getRootElement());
-        State s = new State(new SAXBuilder().build("simulator/maps/discreet-32x32.xml").getRootElement());
+//        State s = new State(new SAXBuilder().build("simulator/maps/discrete-8x8.xml").getRootElement());
+//        State s = new State(new SAXBuilder().build("simulator/maps/discrete-8x8-2.xml").getRootElement());
+//        State s = new State(new SAXBuilder().build("simulator/maps/discrete-8x8-5.xml").getRootElement());
+        State s = new State(new SAXBuilder().build("simulator/maps/discrete-32x32.xml").getRootElement());
 //        State s = new State(new SAXBuilder().build("simulator/maps/discreet-32x32-2.xml").getRootElement());
         Trace t = GenerateDiscreteTraces.generateTrace(s, a, 1000, p);
         TraceVisualizer ad = new TraceVisualizer(t, 800, 600, 1);
