@@ -7,19 +7,14 @@ package vacuumCleaner.agents.force;
 
 import vacuumCleaner.simulator.Action;
 import vacuumCleaner.simulator.perception.Perception;
-import vacuumCleaner.simulator.perception.WindowPerception;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Random;
 import vacuumCleaner.agents.Agent;
-import vacuumCleaner.simulator.perception.TurnableFourRayDistancePerception;
 
 /**
  *
  * @author santi
  */
 
-// LEVEL 3 agent with bounded internal state (IOHMM)
 public class ForceSmartStraightLineAgent extends Agent {
     Random r = new Random();
     double maxForce = 5.0;

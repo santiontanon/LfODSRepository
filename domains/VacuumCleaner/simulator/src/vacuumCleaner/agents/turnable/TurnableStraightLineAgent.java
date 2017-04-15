@@ -16,7 +16,6 @@ import vacuumCleaner.simulator.perception.TurnableFourRayDistancePerception;
  * @author santi
  */
 
-// LEVEL 3 agent with bounded internal state (IOHMM)
 public class TurnableStraightLineAgent extends Agent {
     Random r = new Random();
     int turnState = 0;  // last direction of turn (1 : left, 2: right)
