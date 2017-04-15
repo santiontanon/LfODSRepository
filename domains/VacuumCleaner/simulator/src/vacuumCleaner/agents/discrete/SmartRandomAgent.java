@@ -10,7 +10,6 @@ import vacuumCleaner.simulator.perception.Perception;
 import vacuumCleaner.simulator.perception.WindowPerception;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Random;
 import vacuumCleaner.agents.Agent;
 import util.Pair;
 
@@ -19,7 +18,6 @@ import util.Pair;
  * @author santi
  */
 
-// LEVEL 2 agent
 public class SmartRandomAgent extends Agent {
     
     public List<Pair<Action,Double>> cycleDistribution(int id, Perception p, double timeStep) {

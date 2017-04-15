@@ -8,8 +8,6 @@ package vacuumCleaner.agents.discrete;
 import vacuumCleaner.simulator.Action;
 import vacuumCleaner.simulator.perception.Perception;
 import java.util.List;
-import java.util.Random;
-import vacuumCleaner.agents.Agent;
 import vacuumCleaner.agents.Agent;
 
 /**
@@ -17,7 +15,6 @@ import vacuumCleaner.agents.Agent;
  * @author santi
  */
 
-// LEVEL 3 agent (whatever the underneath agent is)
 public class PauseEveryN extends Agent {
     int N = 3;
     int cycle = 0;

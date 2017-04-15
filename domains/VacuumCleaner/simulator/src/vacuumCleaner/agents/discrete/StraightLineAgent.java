@@ -18,7 +18,6 @@ import vacuumCleaner.agents.Agent;
  * @author santi
  */
 
-// LEVEL 3 agent with bounded internal state (IOHMM)
 public class StraightLineAgent extends Agent {
     Random r = new Random();
     int state = -1; // last direction

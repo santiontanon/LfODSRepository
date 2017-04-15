@@ -9,7 +9,6 @@ import vacuumCleaner.simulator.Action;
 import vacuumCleaner.simulator.perception.Perception;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Random;
 import vacuumCleaner.agents.Agent;
 
 /**
@@ -17,7 +16,6 @@ import vacuumCleaner.agents.Agent;
  * @author santi
  */
 
-// LEVEL 1 agent
 public class FixedSequenceAgent extends Agent {
     String sequence[] = {"up", "up", "right", "right", "down", "down", "left", "left",
                          "up", "up", "up", "right", "right", "right", "down", "down", "down", "left", "left", "left",

@@ -22,7 +22,6 @@ import vacuumCleaner.agents.Agent;
  * in a straight line, it goes for it!
  */
 
-// LEVEL 3 agent with unbounded internal state (LFOHMM, not IOHMM)
 public class SmartRandomExplorerAgent extends Agent {
     public static double tolerance = 0.01;
     Random r = new Random();

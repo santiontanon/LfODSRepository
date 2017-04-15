@@ -22,7 +22,6 @@ import vacuumCleaner.agents.Agent;
  * It assumes that the map is discrete (i.e. that the non explored positions can be enumerated)
  */
 
-// LEVEL 3 agent with unbounded internal state (LFOHMM, not IOHMM)
 public class RandomExplorerAgent extends Agent {
     public static double tolerance = 0.01;
     Random r = new Random();

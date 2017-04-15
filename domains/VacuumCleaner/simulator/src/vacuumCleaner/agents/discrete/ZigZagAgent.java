@@ -18,7 +18,6 @@ import vacuumCleaner.agents.Agent;
  * @author santi
  */
 
-// LEVEL 3 agent with bounded internal state (IOHMM)
 public class ZigZagAgent extends Agent {
     Random r = new Random();
     int vertical_state = 0; // 0, going down; 1, going up

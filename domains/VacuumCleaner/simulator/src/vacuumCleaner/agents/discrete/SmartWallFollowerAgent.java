@@ -7,10 +7,6 @@ package vacuumCleaner.agents.discrete;
 
 import vacuumCleaner.simulator.Action;
 import vacuumCleaner.simulator.perception.Perception;
-import vacuumCleaner.simulator.perception.WindowPerception;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Random;
 import vacuumCleaner.agents.Agent;
 import vacuumCleaner.simulator.perception.FourRayDistancePerception;
 
@@ -19,7 +15,6 @@ import vacuumCleaner.simulator.perception.FourRayDistancePerception;
  * @author santi
  */
 
-// LEVEL 3 agent with bounded internal state (IOHMM)
 public class SmartWallFollowerAgent extends Agent {
     
     public Action cycle(int id,Perception p, double timeStep) {

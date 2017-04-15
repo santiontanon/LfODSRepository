@@ -18,7 +18,6 @@ import util.Pair;
  * @author santi
  */
 
-// LEVEL 2 agent
 public class RandomAgent extends Agent {
     
     public List<Pair<Action,Double>> cycleDistribution(int id, Perception p, double timeStep) {
