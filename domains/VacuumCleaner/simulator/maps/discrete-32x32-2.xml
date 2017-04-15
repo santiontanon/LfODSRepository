@@ -1,0 +1,108 @@
+<simulationstate>
+  <map dx="32" dy="32"/>
+  <objects>
+    <vacuum id = "1">
+      <x>1</x>
+      <y>16</y>
+	  <angle>0</angle>
+      <shape><square dx = "2" dy = "2"/></shape>
+    </vacuum>
+    <obstacle id = "2">
+      <x>7</x>
+      <y>7</y>
+	  <angle>0</angle>
+      <shape><square dx = "2" dy = "2"/></shape>
+    </obstacle>
+    <obstacle id = "3">
+      <x>7</x>
+      <y>13</y>
+	  <angle>0</angle>
+      <shape><square dx = "2" dy = "2"/></shape>
+    </obstacle>
+    <obstacle id = "4">
+      <x>7</x>
+      <y>19</y>
+	  <angle>0</angle>
+      <shape><square dx = "2" dy = "2"/></shape>
+    </obstacle>
+    <obstacle id = "5">
+      <x>7</x>
+      <y>25</y>
+	  <angle>0</angle>
+      <shape><square dx = "2" dy = "2"/></shape>
+    </obstacle>
+    <obstacle id = "6">
+      <x>16</x>
+      <y>16</y>
+	  <angle>0</angle>
+      <shape><square dx = "12" dy = "24"/></shape>
+    </obstacle>
+    <obstacle id = "7">
+      <x>25</x>
+      <y>7</y>
+	  <angle>0</angle>
+      <shape><square dx = "2" dy = "2"/></shape>
+    </obstacle>
+    <obstacle id = "8">
+      <x>25</x>
+      <y>13</y>
+	  <angle>0</angle>
+      <shape><square dx = "2" dy = "2"/></shape>
+    </obstacle>
+    <obstacle id = "9">
+      <x>25</x>
+      <y>19</y>
+	  <angle>0</angle>
+      <shape><square dx = "2" dy = "2"/></shape>
+    </obstacle>
+    <obstacle id = "10">
+      <x>25</x>
+      <y>25</y>
+	  <angle>0</angle>
+      <shape><square dx = "2" dy = "2"/></shape>
+    </obstacle>
+
+    <dirt id = "11">
+      <x>8.5</x>
+      <y>7.5</y>
+	  <angle>0</angle>
+      <shape><square dx = "1" dy = "1"/></shape>
+    </dirt>
+    <dirt id = "12">
+      <x>9.5</x>
+      <y>12.5</y>
+	  <angle>0</angle>
+      <shape><square dx = "1" dy = "1"/></shape>
+    </dirt>
+    <dirt id = "13">
+      <x>6.5</x>
+      <y>20.5</y>
+	  <angle>0</angle>
+      <shape><square dx = "1" dy = "1"/></shape>
+    </dirt>
+    <dirt id = "14">
+      <x>22.5</x>
+      <y>6.5</y>
+	  <angle>0</angle>
+      <shape><square dx = "1" dy = "1"/></shape>
+    </dirt>
+    <dirt id = "15">
+      <x>22.5</x>
+      <y>12.5</y>
+	  <angle>0</angle>
+      <shape><square dx = "1" dy = "1"/></shape>
+    </dirt>
+    <dirt id = "16">
+      <x>23.5</x>
+      <y>18.5</y>
+	  <angle>0</angle>
+      <shape><square dx = "1" dy = "1"/></shape>
+    </dirt>
+    <dirt id = "17">
+      <x>24.5</x>
+      <y>26.5</y>
+	  <angle>0</angle>
+      <shape><square dx = "1" dy = "1"/></shape>
+    </dirt>
+  </objects>
+</simulationstate>

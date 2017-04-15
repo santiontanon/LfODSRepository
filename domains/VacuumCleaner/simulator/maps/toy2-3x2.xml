@@ -1,0 +1,11 @@
+<simulationstate>
+  <map dx="3" dy="2"/>
+  <objects>
+    <toy2vacuum id = "1">
+      <x>0.5</x>
+      <y>0.5</y>
+  	  <angle>0</angle>
+      <shape><square dx = "1" dy = "1"/></shape>
+    </toy2vacuum>
+  </objects>
+</simulationstate>

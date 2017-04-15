@@ -1,0 +1,35 @@
+<simulationstate>
+  <map dx="12" dy="8"/>
+  <objects>
+    <vacuum id = "1">
+      <x>1.5</x>
+      <y>1.5</y>
+	  <angle>45.0</angle>
+      <shape><square dx = "1" dy = "1"/></shape>
+    </vacuum>
+    <obstacle id = "2">
+      <x>5</x>
+      <y>4</y>
+	  <angle>0</angle>
+      <shape><square dx = "4" dy = "4"/></shape>
+    </obstacle>
+    <dirt id = "3">
+      <x>6.5</x>
+      <y>1.5</y>
+	  <angle>0</angle>
+      <shape><circle radius = "0.5"/></shape>
+    </dirt>
+    <dirt id = "4">
+      <x>0.5</x>
+      <y>6.5</y>
+	  <angle>0</angle>
+      <shape><square dx = "1" dy = "1"/></shape>
+    </dirt>
+    <dirt id = "4">
+      <x>10.5</x>
+      <y>5.5</y>
+	  <angle>0</angle>
+      <shape><square dx = "1" dy = "1"/></shape>
+    </dirt>
+  </objects>
+</simulationstate>
